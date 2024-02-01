@@ -27,6 +27,8 @@ class ViewModel: ObservableObject {
     func getData(for show: String) async {
         status = .fetching
         
+        print(status)
+        
         do {
             let quote = try await controller.fetchQuote(from: show)
             let character = try await controller.fetchCharacter(quote.character)

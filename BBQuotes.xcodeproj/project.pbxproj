@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146A881D2B6C1C340064064D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A881C2B6C1C340064064D /* CharacterView.swift */; };
 		149977EA2B68883500D7E6E8 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149977E92B68883500D7E6E8 /* FetchController.swift */; };
 		149977EC2B688D2A00D7E6E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149977EB2B688D2A00D7E6E8 /* Constants.swift */; };
 		149977EE2B68939600D7E6E8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149977ED2B68939600D7E6E8 /* ViewModel.swift */; };
+		149977F02B68988A00D7E6E8 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149977EF2B68988A00D7E6E8 /* QuoteView.swift */; };
 		14B248EB2B631E1300E114F0 /* BBQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B248EA2B631E1300E114F0 /* BBQuotesApp.swift */; };
 		14B248ED2B631E1300E114F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B248EC2B631E1300E114F0 /* ContentView.swift */; };
 		14B248EF2B631E1400E114F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B248EE2B631E1400E114F0 /* Assets.xcassets */; };
@@ -20,9 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		146A881C2B6C1C340064064D /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		149977E92B68883500D7E6E8 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		149977EB2B688D2A00D7E6E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		149977ED2B68939600D7E6E8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		149977EF2B68988A00D7E6E8 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		14B248E72B631E1300E114F0 /* BBQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B248EA2B631E1300E114F0 /* BBQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBQuotesApp.swift; sourceTree = "<group>"; };
 		14B248EC2B631E1300E114F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				14B248EA2B631E1300E114F0 /* BBQuotesApp.swift */,
 				14B248EC2B631E1300E114F0 /* ContentView.swift */,
 				149977ED2B68939600D7E6E8 /* ViewModel.swift */,
+				149977EF2B68988A00D7E6E8 /* QuoteView.swift */,
+				146A881C2B6C1C340064064D /* CharacterView.swift */,
 				149977E92B68883500D7E6E8 /* FetchController.swift */,
 				14B248FA2B63211B00E114F0 /* Quote.swift */,
 				14B248FC2B63216100E114F0 /* Character.swift */,
@@ -159,8 +165,10 @@
 				14B248ED2B631E1300E114F0 /* ContentView.swift in Sources */,
 				14B248FB2B63211B00E114F0 /* Quote.swift in Sources */,
 				14B248EB2B631E1300E114F0 /* BBQuotesApp.swift in Sources */,
+				149977F02B68988A00D7E6E8 /* QuoteView.swift in Sources */,
 				149977EA2B68883500D7E6E8 /* FetchController.swift in Sources */,
 				14B248FD2B63216100E114F0 /* Character.swift in Sources */,
+				146A881D2B6C1C340064064D /* CharacterView.swift in Sources */,
 				149977EC2B688D2A00D7E6E8 /* Constants.swift in Sources */,
 				149977EE2B68939600D7E6E8 /* ViewModel.swift in Sources */,
 			);
